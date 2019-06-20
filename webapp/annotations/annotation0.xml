@@ -26,6 +26,12 @@
 	<edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Validation.V1.xml">
 		<edmx:Include Alias="Validation" Namespace="Org.OData.Validation.V1"/>
 	</edmx:Reference>
+	<edmx:Reference Uri="https://wiki.scn.sap.com/wiki/download/attachments/462030211/Analytics.xml">
+		<edmx:Include Alias="Analytics" Namespace="com.sap.vocabularies.Analytics.v1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://wiki.scn.sap.com/wiki/download/attachments/496435637/PersonalData.xml">
+		<edmx:Include Alias="PersonalData" Namespace="com.sap.vocabularies.PersonalData.v1"/>
+	</edmx:Reference>
 	<edmx:DataServices>
 		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm">
 			<Annotations Target="GWSAMPLE_BASIC.SalesOrder">
