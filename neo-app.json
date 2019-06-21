@@ -46,15 +46,7 @@
       },
       "description": "SAPUI5 Test Resources"
     },
-    {
-      "path": "/sap/bc/lrep",
-      "target": {
-        "type": "destination",
-        "name": "ES5",
-        "entryPath": "/sap/bc/lrep"
-      },
-      "description": "ES5"
-    },
+    
     {
       "path": "/test-resources",
       "target": {
